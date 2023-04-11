@@ -1,0 +1,394 @@
+@font-face {
+  font-family: gothicw;
+  src: url("Amelaryas.otf") /* EOT file for IE */
+  }
+  @font-face {
+  font-family: gothicw;
+  src: url("Amelaryas.ttf") 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+    cursor: url('cursor_23x23.png'),auto;
+}
+
+#loader{
+  position: fixed;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+#loader h3{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 300px;
+}
+
+.nav{
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name{
+    margin-right: 74%;
+    margin-left: 100px;
+    padding-top: 50px;
+    cursor: url('vdot_40x40.png'),auto;
+    content: "Pawan Kamat";
+}
+
+.name:hover{
+  content: "Pxwxn Kxmxt";
+}
+
+.about{
+    padding-top: 50px;
+    cursor: url('vdot_40x40.png'),auto;
+    text-decoration: none;
+}
+
+.container1{
+    width: 100%;
+}
+
+.container1 h1{
+    font-size: 70px;
+}
+
+.story{
+    font-family: Amelaryas,'Merriweather', serif;
+    color: white;
+    margin: 100px 0 0 100px;
+    letter-spacing: 30px;
+}
+
+.design{
+    font-family: Amelaryas,'Merriweather', serif;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    letter-spacing: 20px;
+}
+
+.container1 h4{
+    color: white;
+    width: 40%;
+    margin: 40px 0 0 100px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 4px;
+    line-height: 1.5;
+}
+
+.work{
+    width: 30%;
+    height: 100%;
+}
+
+.bounceimg {
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    width: 10%;
+    height: 20%;
+    cursor: url('vdot_40x40.png'),auto;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+
+  .bounceimg:hover{
+    content: url('cursor3.png');
+    width: 12%;
+    height: 22%;
+    right: 7%;
+    bottom: 9%;
+  }
+
+
+  #projects{
+    color: white;
+    width: 100%;
+  }
+
+  hr{
+    margin: 60px 100px 40px 100px;
+  }
+
+  #projects h2{
+    padding-top: 200px;
+    margin: 0 0 0 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #project{
+    width: 100%;
+    color: white;
+  }
+
+  #project h1{
+    margin: 0 0 0 100px;
+    font-family: Amelaryas,'Merriweather', serif;
+    letter-spacing: 10px;
+  }
+
+  #project h4{
+    margin: 0 0 0 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 0 40px 100px;
+  }
+
+  .imgcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #project img{
+    width: 87%;
+    border-radius: 20px;
+    cursor: url('vdot_40x40.png'),auto;
+  }
+
+  #voteimg:hover{
+    content: url('vote2.0bw.png');
+    width: 90%;
+    border-radius: 100px;
+  }
+
+  #sphereimg:hover{
+    content: url('spherebw.png');
+    width: 90%;
+    border-radius: 100px;
+  }
+
+  #windowsimg:hover{
+    content: url('windows11bw.png');
+    width: 90%;
+    border-radius: 100px;
+  }
+
+
+  span{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .footer{
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    color: white;
+  }
+
+  .footer h4{
+    padding-bottom: 50px;
+  }
+
+  .footer p{
+    padding: 6px 0;
+  }
+
+  .section1{
+    margin-right: 32%;
+    padding-bottom: 60px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    cursor: url('vdot_40x40.png'),auto;
+  }
+
+  .section2 {
+    margin-right: 26%;
+  }
+
+  /* ABOUT */
+  #hindi{
+    font-size: 38px;
+  }
+
+  #mumbai{
+    font-size: 38px;
+  }
+
+  .descp{
+    color: white;
+  }
+
+  .aboutnav{
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+  }
+
+  .descp h2{
+    font-family: Amelaryas,'Merriweather', serif;
+    margin: 0 0 0 100px;
+    letter-spacing: 3px;
+    width: 65%;
+  }
+
+  .finalh2{
+    padding-bottom: 100px;
+  }
+
+  .purplespan{
+    color: #7F007F;
+    font-family: Amelaryas,'Merriweather', serif;
+  }
+
+  .purplespan:hover{
+    color: #d500d5;
+  }
+
+  .descp p{
+    margin: 0 0 0 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+
+  .finalp1{
+    padding-bottom: 35px;
+  }
+
+  .experience{
+    color: white;
+  }
+  
+  .experience h2{
+    margin: 100px 0 0 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .experience h1{
+    margin: 0 0 0 100px;
+    font-family: Amelaryas,'Merriweather', serif;
+    letter-spacing: 10px;
+    font-size: medium;
+  }
+
+  .experience h4{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0 40px 100px;
+  }
+
+  .purple-dash{
+    margin: 20px 100px 40px 100px;
+    background-color: #7F007F;
+    border: none;
+    height: 2px;
+  }
+
+  .experience hr{
+    margin: 20px 100px 40px 100px;
+  }
+
+  .experience a:hover{
+    font-size: large;
+    color: #D4AAFF;
+  }
+
+  .pawanimg{
+    margin: 140px 0 0 0;
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    right: 4%;
+    opacity: 30%;
+  }
+
+/* PROJECT- SPHERE */
+
+.video{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.video video{
+  width: 83%;
+  margin: auto;
+  margin: 100px 0 0 0;
+  border-radius: 50px;
+}
+
+.images{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.images img{
+  width: 40%;
+  margin-top: 60px;
+  border-radius: 50px;
+}
+
+.sphere1{
+  padding-right: 40px;
+}
+
+#sphereproject{
+  width: 100%;
+  color: white;
+}
+
+#sphereproject h1{
+  margin: 60px 0 0 100px;
+  font-family: Amelaryas,'Merriweather', serif;
+  letter-spacing: 10px;
+}
+
+#sphereproject h4{
+  margin: 0 0 0 100px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 0 40px 100px;
+}
+
+#sphereproject p{
+  color: white;
+  width: 80%;
+  margin: 40px 0 0 100px;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 4px;
+  line-height: 1.5;
+}
+
+.spherebounceimg{
+  width: 10%;
+  height: 20%;
+  right: 15%;
+  bottom: -115%;
+  cursor: url('vdot_40x40.png'),auto;
+  position: absolute;
+}
+
+.spherebounceimg:hover{
+  content: url('next2.png');
+  width: 11%;
+  height: 21%;
+}

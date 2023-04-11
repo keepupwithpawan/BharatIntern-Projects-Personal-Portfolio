@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Kamat- A web developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Code+Pro&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loading()">
+    <!-- LOADER -->
+    <div id="loader">
+        <h3 class="load-head">Pawan</h3>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <div class="nav">
+        <h3 id="name" class="name" onclick="home()">Pawan Kamat</h3>
+        <h3 id="about" class="about" onclick="about()">About</h3>
+    </div>
+
+    <!-- HEADING CONTENT -->
+    <div class="container1">
+        <h1 class="story">Storytelling</h1>
+        <h1 class="design">Designer</h1>
+        <h4>I'm Pawan, a front end web developer and UI/UX designer and currently a student. I love to design my clients minimal and beautiful looking clean websites.</h4>
+    </div>
+
+
+    <!-- BOUNCING IMAGE -->
+    <div class="work">
+        <img class="bounceimg" src="cursor2.png" class="work" alt="" onclick="work()">
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+        <h2>Featured Projects</h2>
+        <hr>
+
+        <div id="project">
+            <h1>Online Voting System</h1>
+            <h4>Academic Project | Front-End Web Development | UI/UX Design (In Progress)</h4>
+            <div class="imgcontainer">
+            <img id="voteimg" src="vote2.0.png" alt="" onclick="gotovote()">
+        </div>
+
+            <hr>
+
+            <div id="project">
+                <h1><span>3D</span> Radiating Sphere</h1>
+                <h4>Personal Project | Front-End Web Development | UI/UX Design </h4>
+                <div class="imgcontainer">
+                    <img id="sphereimg" src="sphere.png" alt="" onclick="gotosphere()">
+                </div>
+            </div>
+
+            
+            <hr>
+
+            <div id="project">
+                <h1>Windows <span>11</span> Clone</h1>
+                <h4>Personal Project | Front-End Web Development | UI/UX Design </h4>
+                <div class="imgcontainer">
+                    <img id="windowsimg" src="windows11.png" alt="" onclick="gotowin()">
+                </div>
+            </div>
+
+            
+            <hr>
+        </div>
+
+            <div class="footer">
+                <div class="section1">
+                    <h4>Skills and Tools</h4>
+                    <p>HTML</p> 
+                    <p>CSS</p> 
+                    <p>JavaScript</p> 
+                    <p>Tailwind CSS</p> 
+                    <p>Bootstrap</p> 
+                    <p>Figma</p> 
+                    <p>Canva</p> 
+                    <p>Spline</p> 
+                    <p>Video Editing</p> 
+                </div>
+
+                <div class="section2">
+                    <h4>Socials</h4>
+                    <p><a href="https://www.instagram.com/keepupwithpawan">Instagram <i class="fa-brands fa-instagram"></i></a></p> 
+                    <p><a href="mailto:pawankamatw@email.com">Mail <i class="fa-solid fa-envelope "></i></a></p>
+                    <p><a href="https://www.linkedin.com/in/pawankamat/">Linkedin <i class="fa-brands fa-linkedin"></i></a></p> 
+                    <p><a href="https://github.com/keepupwithpawan">Github <i class="fa-brands fa-github"></i></a></p>
+                    <p>Phone- 9324565729</p> 
+                </div>
+
+                <div class="section3">
+                    <h4>Currently at</h4>
+                    <p>BTech in Computer Engineering </p>
+                </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/26ef1a8bee.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
